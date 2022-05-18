@@ -1,0 +1,9 @@
+:root {
+    --tan-color: #9C8E76;
+    --coffee-color: #3F3631;
+    --grey-color: #828282;
+    ---black-color: #000000;
+}
+
+@import url('./base.css');
+@import url('./basic-grid.css');
