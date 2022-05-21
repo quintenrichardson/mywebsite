@@ -5,5 +5,22 @@
     ---black-color: #000000;
 }
 
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-conetent: flex-start;
+}
+
+nav {
+    display: flex;
+   align-items: flex-start;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+    text-align: right;
+}
+
 @import url('./base.css');
 @import url('./basic-grid.css');
